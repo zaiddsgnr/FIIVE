@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guerrero Profile</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">FIIVE</a>
+        <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="Aligata.html">Aligata</a>
+            <a href="Damaso.html">Damaso</a>
+            <a href="Diaz.html">Diaz</a>
+            <a href="Diesta.html" >Diesta</a>
+            <a href="Guerrero.html" class="active">Guerrero</a>
+        </nav>
+    </header>
+
+    <section class="Aligata">
+        <div class="Aligata-content">
+            <br><br><br><br><br><br>
+            <h3>Hi, It's Me</h3>
+            <h1>Guerrero, Cristel G.</h1>
+            <h3>And I'm an <span>IT student</span></h3>
+            <h3>EDUCATIONAL BACKGROUND</h3>
+            <table>
+                <tbody>
+                <tr>
+                    <td>2023 - Present</td>
+                    <td>
+                        <b>Quezon City University</b>
+                        <li>Bachelor of Science in Information and Technology</li>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2021-2023 </td>
+                    <td>
+                        <b>South-East Asia Institute of Trade and Technology</b>
+                        <li>Information and Communication Technologies (Computer System Servicing)</li>
+                        <i>Achievements:</i>
+                        <li>Grade 12 - Second Semester "With honors"</li>
+                        <li> Grade 11 - Second Semester "With honors"</li>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2017 - 2021</td>
+                    <td>
+                        <b>Judge Feliciano Belmonte Sr. High School</b><br>
+                    </td>
+                </tr>
+                <t/body>
+            </table>
+            
+            <h3>Skills</h3>
+            <b>Computer System Servicing </b> <br>
+            <b>Basic Web Design</b> <br>
+            <b>Basic LAN Cabling</b> <br>
+            
+            <div class="social-media">
+                <a href="https://www.facebook.com/cristeltelteltelkyleeee?mibextid=ZbWKwL" style="--i:7;"><i class='bx bxl-facebook'></i></a>
+                <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=guerrerocristelkyle@gmail.com" style="--i:10;"><i class='bx bxl-gmail'></i></a> 
+            </div>
+        </div>
+        
+        <div class="Aligata-img">
+            <img src="Guerrero.jpg">
+        </div>
+    </section>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            var scrollPosition = window.scrollY;
+            var header = document.querySelector('.header');
+            if (scrollPosition > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
+    
+</body>
+</html>
